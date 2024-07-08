@@ -21,7 +21,7 @@ body{
 }
 
 .link{
-    margin-left: 500px;
+    margin-left: 400px;
 }
 .link a{
     text-decoration: none;
@@ -74,16 +74,42 @@ body{
 .icons{
     display: flex;
     background-color: white;
-    padding-left: 70px;
+    padding-left: 20px;
     align-items: center;
     margin-top: 70px;
+    height: 90px;
     
 }
 
-.icons img{
-    width: 50px;
-    padding-left: 10px;
+.icons a i{
+    color: black;
+    width: 70px;
+    margin-left: 15px;
+} 
+
+#facebook-icon:hover {
+    color: #3b5998; 
 }
+
+#twitter-icon:hover {
+    color: #1da1f2; 
+}
+
+#whatsapp-icon:hover {
+    color: #25d366; 
+}
+
+#instagram-icon:hover {
+    color: #e1306c; 
+}
+
+.media1{
+    width: 40px;
+    height: 30px;
+}
+
+
+
 
 /* hello part */
 .hello{
@@ -147,6 +173,7 @@ body{
     text-align: center;
     padding-left: 40px;
     gap: 80px;
+    margin-top: 50px;
 }
 
 
@@ -157,11 +184,47 @@ body{
     
 }
 
-.icons1 img{
-    width: 30px;
-    padding-left: 10px;
+
+.call1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    color: #006ba6;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0;
 }
 
-.call{
+.call {
     padding-left: 400px;
+    
+}
+
+.call p{
+    margin: 8px;
+
+}
+
+.call2 p{
+    margin: 8px;
+
+}
+
+.download-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.download-button:hover {
+    background-color: #0056b3;
 }

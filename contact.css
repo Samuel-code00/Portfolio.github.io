@@ -66,9 +66,7 @@ body{
     margin-top: 30px;
 
 }
-.first{
-    /* padding-left: 30px; */
-}
+
 
 .first img{
     width: 90px;
@@ -186,11 +184,40 @@ input{
     
 }
 
-.icons1 img{
-    width: 30px;
-    padding-left: 10px;
+.icons1{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    
 }
+.media1{
+    width: 40px;
+    height: 30px;
+}
+
+
+.call1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    color: #006ba6;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0;
+}
+
 
 .call{
     padding-left: 400px;
+}
+
+.call p{
+    margin: 8px;
+
+}
+
+.call2 p{
+    margin: 8px;
+
 }

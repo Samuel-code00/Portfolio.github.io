@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal-Profile</title>
     <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
     <div class="nav">
@@ -17,8 +18,13 @@
       <div class="link">
         <a href="index.html" id="active">HOME</a>
         <a href="about.html">ABOUT ME</a>
-        <a href="">PROJECT</a>
+        <a href="project.html">PROJECT</a>
         <a href="contact.html">CONTACT ME</a>
+      </div>
+
+      <div>
+        
+        <a href="CV - Software Engineer.pdf" class="download-button" download="CV - Software Engineer.pdf"><box-icon type='solid' name='download'></box-icon>Download  CV</a>
       </div>
     </div>
 
@@ -30,10 +36,10 @@
              <hr class="hr" />
              <p>FRONTEND PROGRAMMER</p>
              <div class="icons">
-               <img src="image/facebook.png" alt="" />
-               <img src="image/twitter.png" alt="" />
-               <img src="image/linkedin.png" alt=""  height="30px" />
-               <img src="image/instagram.png" alt="" height="30px"  />
+              <a href="https://www.facebook.com/Arinze Chukwu"><i  id="facebook-icon" class='bx bxl-facebook bx-lg'></i></a>
+              <a href="https://wa.me/07082031588" target="_blank"> <i  id="whatsapp-icon"  class='bx bxl-whatsapp bx-lg '></i></a>
+              <a href="https://twitter.com/samnze00" target="_blank"><i   id="twitter-icon" class='bx bxl-twitter bx-lg'></i></a>
+              <a href="https://www.instagram.com/SAMSAVAGES-OFFICIAL" target="_blank"><i   id="instagram-icon" class='bx bxl-instagram bx-lg'></i></a>
              </div>
           </div>
  
@@ -41,7 +47,7 @@
            <h1 id="big">Hello</h1>
            <p class="content1"><b>Here's who I am & what I do</b></p>
            <a href="about.html" id="about">ABOUT ME</a>
-           <a href="" id="project">PROJECTS</a>
+           <a href="project.html" id="project">PROJECTS</a>
            <p class="content">Hi! I'm Samuel Arinze, a passionate frontend developer creating intuitive user experiences. With a background in <b>Web Development</b> , I thrive on turning creative ideas into engaging digital solutions.</p>
            <a href="contact.html" id="about">HIRE ME</a>
           </div>
@@ -54,23 +60,32 @@
         <p> &copy; 2024 Samuel Arinze.</p>
        </div>
        <div class="call">
-        <p>Call</p>
-        <p>+234 708 203 1588</p>
+          <div class="call1">
+            <box-icon type='solid' name='phone'></box-icon>
+          <p>Call</p>
+          </div>
+          <p>+234 708 203 1588</p>
        </div>
-       <div>
-        <p>E mail</p>
-        <p>samphabz00@gmail.com</p>
+
+       <div class="call2">
+          <div class="call1">
+            <box-icon name='envelope'></box-icon>
+          <p>E mail</p>
+          </div>
+          <p>samphabz00@gmail.com</p>
        </div>
+
        <div>
-        <p>Follow</p>
+        <p class="call1">Follow</p>
         <div class="icons1">
-            <img src="image/facebook.png" alt="" />
-            <img src="image/twitter.png" alt="" />
-            <img src="image/linkedin.png" alt=""  height="20px" />
-            <img src="image/instagram.png" alt="" height="20px"  />
+          <a href="https://github.com/Samuel-code00" target="_blank"><box-icon type='logo' name='github'></box-icon></a>
+          <a href=""><box-icon class="media1" type='logo' name='linkedin'></box-icon></a>
+          
           </div>
        </div>
        
     </div>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
   </body>
 </html>
